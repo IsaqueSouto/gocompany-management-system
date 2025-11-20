@@ -1,41 +1,44 @@
-# GOCompany – Sistema de Gestão de Passagens
+# GOCompany -- Ticket Management System
 
-Este projeto é um sistema desenvolvido em **C# (Windows Forms)** para gestão de passagens rodoviárias.  
-Inclui telas de cadastro, listagem, busca, relatórios e integração com banco de dados MySQL.
+This project is a system developed in **C# (Windows Forms)** for
+managing bus tickets. It includes registration screens, listing, search,
+reports, and integration with a MySQL database.
 
-## Funcionalidades
-- Cadastro de passagens
-- Consulta e edição de registros
-- Exclusão de dados
-- Interface em Windows Forms
-- Persistência em MySQL
-- Tela auxiliar “CompletarCPF”
-- Módulo de documentação do sistema
+## Features
 
-## Tecnologias Utilizadas
-- C# (.NET Framework)
-- Windows Forms
-- MySQL / MariaDB
-- Visual Studio
-- ADO.NET
+-   Ticket registration
+-   Record consultation and editing
+-   Data deletion
+-   Windows Forms interface
+-   MySQL persistence
+-   Auxiliary "CompletarCPF" screen
+-   System documentation module
 
-## Estrutura do Projeto
-```
-TCC/
- ├── GOCompany/         
- ├── CompletarCPF/      
- ├── documentation/     
- ├── imagem_passagens/  
- ├── gocompany.sql      
-```
+## Technologies Used
 
-## Como Executar
-1. Abra o Visual Studio.
-2. Carregue a solução `GOCompany.sln`.
-3. Importe o arquivo `gocompany.sql` no MySQL.
-4. Ajuste a string de conexão.
-5. Execute o projeto.
+-   C# (.NET Framework)
+-   Windows Forms
+-   MySQL / MariaDB
+-   Visual Studio
+-   ADO.NET
 
-## Banco de Dados
-Use o arquivo `gocompany.sql`.
+## Project Structure
 
+    TCC/
+     ├── GOCompany/         
+     ├── CompletarCPF/      
+     ├── documentation/     
+     ├── imagem_passagens/  
+     ├── gocompany.sql      
+
+## How to Run
+
+1.  Open Visual Studio.
+2.  Load the `GOCompany.sln` solution.
+3.  Import the `gocompany.sql` file into MySQL.
+4.  Adjust the connection string.
+5.  Run the project.
+
+## Database
+
+Use the `gocompany.sql` file.

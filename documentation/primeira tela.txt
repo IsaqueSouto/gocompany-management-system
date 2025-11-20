@@ -1,0 +1,6 @@
+Ao inicializar o aplicativo entra na tela de cadastro.
+Na tela Cadastro tem os campos:
+-Email
+-Nome
+-senha/repetir senha
+-cpf(gerado com as regras do detran de forma automática com um código desenvolvido pelos participantes)

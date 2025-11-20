@@ -1,0 +1,25 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.db
+
+bin/
+obj/
+Debug/
+Release/
+
+*.log
+Thumbs.db
+Desktop.ini
+
+packages/
+*.nupkg
+
+*.tmp
+*.temp
+*.bak
+
+appsettings.Development.json
+*.local.json

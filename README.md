@@ -3,7 +3,7 @@
 Este projeto é um sistema desenvolvido em **C# (Windows Forms)** para gestão de passagens rodoviárias.  
 Inclui telas de cadastro, listagem, busca, relatórios e integração com banco de dados MySQL.
 
-## 🎯 Funcionalidades
+## Funcionalidades
 - Cadastro de passagens
 - Consulta e edição de registros
 - Exclusão de dados
@@ -12,14 +12,14 @@ Inclui telas de cadastro, listagem, busca, relatórios e integração com banco 
 - Tela auxiliar “CompletarCPF”
 - Módulo de documentação do sistema
 
-## 🏗 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 - C# (.NET Framework)
 - Windows Forms
 - MySQL / MariaDB
 - Visual Studio
 - ADO.NET
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 ```
 TCC/
  ├── GOCompany/         
@@ -29,13 +29,13 @@ TCC/
  ├── gocompany.sql      
 ```
 
-## 🚀 Como Executar
+## Como Executar
 1. Abra o Visual Studio.
 2. Carregue a solução `GOCompany.sln`.
 3. Importe o arquivo `gocompany.sql` no MySQL.
 4. Ajuste a string de conexão.
 5. Execute o projeto.
 
-## 🗄 Banco de Dados
+## Banco de Dados
 Use o arquivo `gocompany.sql`.
 

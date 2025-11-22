@@ -24,7 +24,7 @@ reports, and integration with a MySQL database.
 
 ## Project Structure
 
-    TCC/
+    gocompanyproject/
      ├── GOCompany/         
      ├── CompletarCPF/      
      ├── documentation/     

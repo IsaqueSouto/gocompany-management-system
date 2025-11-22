@@ -5,21 +5,54 @@
 *.cache
 *.db
 
+# Build folders
 bin/
 obj/
 Debug/
 Release/
+x64/
+x86/
+[Aa]rtifacts/
+publish/
 
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Logs
 *.log
+Logs/
+log/
+
+# Temporary / system files
 Thumbs.db
 Desktop.ini
-
-packages/
-*.nupkg
-
 *.tmp
 *.temp
 *.bak
 
+# NuGet
+packages/
+*.nupkg
+# Automatic restore folder
+*.nuget/
+
+# Test results
+TestResult*/
+TestResults/
+
+# Azure / IIS / Docker
+*.publishsettings
+*.dockerignore
+docker-compose.override.yml
+
+# User secrets / config
 appsettings.Development.json
 *.local.json
+secrets.json
+
+# Others
+*.swp
+*.orig
+*.cache/
+
